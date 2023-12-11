@@ -16,7 +16,7 @@ body {
 .home {
     color: white;
     text-align: center;
-    margin-bottom: 780px;
+    margin-bottom: 70px;
 
     .title {
         font-size: 75px;
@@ -28,6 +28,15 @@ body {
     .desc {
         font-family: 'Courier New';
     }
+}
+
+.pic {
+    transition: filter 0.5s ease;
+}
+
+.teddy-content,
+.robert-content {
+    transition: opacity 0.5s ease;
 }
 
 .about {
@@ -62,7 +71,7 @@ body {
         transition: 0.5s ease;
     }
     
-    }
+
 
     .robert {
         padding: 30px;
@@ -82,5 +91,13 @@ body {
         box-shadow: 0 0 0 10px whitesmoke;
         transition: 0.5s ease;
     }
-    
+
+    .fadd {
+    cursor: pointer;
+    }
 }
+
+.hidden {
+    display: none;
+}
+
