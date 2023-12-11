@@ -1,19 +1,38 @@
 body {
+    background-image: url(https://wallpapercave.com/wp/wp9120105.jpg);
+    
+}
+
+.navbar{
+    color: white;
+    top: 0%;
+    position: fixed;
     background-color: black;
+    height: 38px;
+    width: 100%;
+    text-align: center;
 }
 
 .home {
     color: white;
+    text-align: center;
 
     .title {
+        font-size: 75px;
         font-weight: bolder;
         font-family: Verdana;
         margin-top: 150px;
-        margin-left: 15%;
     }
 
     .desc {
         font-family: 'Courier New';
-        margin-left: 10%;
     }
+}
+
+.about {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    width: 70%;
 }
