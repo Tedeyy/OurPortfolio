@@ -16,7 +16,7 @@ body {
 .home {
     color: white;
     text-align: center;
-    margin-bottom: 170px;
+    margin-bottom: 780px;
 
     .title {
         font-size: 75px;
@@ -43,26 +43,44 @@ body {
         margin-top: 150px;
     }
     
-     .teddy {
+    .teddy {
         padding: 30px;
-        height: 800px;
+        height: 500px;
         width: 48%;
         border-style: solid;
         border-color: black;
-        float: left;
         border-radius: 30px;
+        float:left;
+    }
+    
+    .teddy .pic {
+        transition: 0.5s ease;
+    }
+    
+    .teddy:hover .pic {
+        box-shadow: 0 0 0 10px whitesmoke;
+        transition: 0.5s ease;
+    }
+    
     }
 
     .robert {
         padding: 30px;
-        height: 800px;
+        height: 500px;
         width: 48%;
         border-style: solid;
         border-color: black;
-        float: right;
         border-radius: 30px;
-
+        float: right;
     }
-
+    
+    .robert .pic {
+        transition: 0.5s ease;
+    }
+    
+    .robert:hover .pic {
+        box-shadow: 0 0 0 10px whitesmoke;
+        transition: 0.5s ease;
+    }
+    
 }
-   
