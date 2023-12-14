@@ -125,4 +125,34 @@ body {
         font-weight: bolder;
         font-size: 70px;
     }
+    .nm {
+        font-family: 'Courier New';
+        font-weight: bolder;
+    }
+    .desc {
+        font-family: 'Courier New';
+        text-indent: 10px;
+        text-align: justify;
+        margin-left: 52%;
+        margin-right: 19%;
+        margin-bottom: 100px;
+    }
+    .pos {
+        height: 100px;
+        width: 50%;
+        padding: 10%;
+        float:  left;
+        border-radius: 35px;
+        background-image: url(../img/pos.png);
+        background-size: 100% 100%;
+    }
+    .tms {
+        height: auto;
+        width: 50%;
+        padding: 10%;
+        float:  left;
+        border-radius: 35px;
+        background-image: url(../img/todo.png);
+        background-size: 100% 100%;
+    }
 }
