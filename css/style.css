@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.home {
+    width: 60%;
+    height: 400px;
+    padding: 15%;
+        .t {
+            font-family: Helvetica;
+            font-weight: bolder;
+            font-size: 100px;
+        }
+        .d {
+            font-family: 'Courier New';
+            font-weight: bold;  
+            font-size: 15px;
+        }
+}
