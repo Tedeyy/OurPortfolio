@@ -7,6 +7,7 @@ body {
     width: 60%;
     height: 400px;
     padding: 15%;
+    margin-bottom: 80px;
         .t {
             font-family: Helvetica;
             font-weight: bolder;
@@ -20,16 +21,18 @@ body {
 }
 
 .line {
-    width: 10%;
-    height: 2000px;
+    width: 3%;
+    height: 20000px;
     border: 5px;
-    border-color: white;
+    border-color: rgb(114, 114, 114);
     border-style: double;
     float: right;
+    margin-right: 20%;
 }
 
 .about {
     padding: 10%;
+    margin-bottom: 80px;
         .t {
             font-family: Helvetica;
             font-weight: bolder;
@@ -75,7 +78,7 @@ body {
             }
         }
         .robert {
-            height: 250px;
+            height: 320px;
             width: 80%;
             padding: 8px;
             border: 2px;
@@ -84,7 +87,7 @@ body {
             border-radius: 35px;
 
             .pic {
-                height: 230px;
+                height: 300px;
                 width: 40%;
                 padding: 10%;
                 float:  left;
@@ -92,6 +95,8 @@ body {
                 border-style: solid;
                 border-color: white;
                 border-radius: 35px;
+                background-image: url(../img/robertpic.jpg);
+                background-size: 100% 100%;
             }
             .desc1 {
                 font-family: 'Courier New';
@@ -110,4 +115,14 @@ body {
             }
         }
         
+}
+
+.project {
+    padding: 10%;
+
+    .t {
+        font-family: Helvetica;
+        font-weight: bolder;
+        font-size: 70px;
+    }
 }
