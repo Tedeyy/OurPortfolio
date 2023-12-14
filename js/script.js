@@ -1,3 +1,4 @@
+//toggle content
 function toggleColorAndContent() {
     var faddImage = document.querySelector('.fadd');
     var teddyContent = document.querySelector('.teddy-content');
