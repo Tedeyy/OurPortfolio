@@ -2,9 +2,61 @@ html {
     scroll-behavior: smooth;
 }
 
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 body {
     background-color: black;
     color: white;
+}
+
+.navbar{
+    animation: fade-down 0.5s 0.4s backwards;
 }
 
 .home {
@@ -12,6 +64,8 @@ body {
     height: 400px;
     padding: 15%;
     margin-bottom: 80px;
+    animation: fade-right 0.5s 0.4s backwards;
+    
         .t {
             font-family: Helvetica;
             font-weight: bolder;
@@ -37,6 +91,8 @@ body {
 .about {
     padding: 10%;
     margin-bottom: 80px;
+    animation: fade-up 0.5s 0.4s backwards;
+
         .t {
             font-family: Helvetica;
             font-weight: bolder;
@@ -135,6 +191,7 @@ body {
 
 .project {
     padding: 10%;
+    animation: fade-up 0.5s 0.4s backwards;
 
     .t {
         font-family: Helvetica;
@@ -218,6 +275,7 @@ body {
 .interactivep {
     margin-left: 10%;
     margin-bottom: 300px;
+    animation: fade-up 0.5s 0.4s backwards;
     
     .t {
         font-family: Helvetica;
@@ -267,6 +325,7 @@ body {
 .resume {
     margin-left: 10%;
     margin-bottom: 300px;
+    animation: fade-up 0.5s 0.4s backwards;
 
     .t {
         font-family: Helvetica;
@@ -288,6 +347,7 @@ body {
 .contacts {
     margin-left: 10%;
     margin-bottom: 300px;
+    animation: fade-up 0.5s 0.4s backwards;
 
     .t {
         font-family: Helvetica;
