@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     color: white;
@@ -174,29 +178,93 @@ body {
         background-size: 100% 100%;
     }
 }
-
-.ballcanvas {
-    position: absolute;
-     height: 400px;
-    width: 50%;
-    margin-left: 15%;
-    border: 2px white solid;
-
-    .ball {
+.interactivep {
+    margin-left: 10%;
+    margin-bottom: 300px;
+    
+    .t {
+        font-family: Helvetica;
+        font-weight: bolder;
+        font-size: 70px;
+    }
+    .nm {
+        font-family: 'Courier New';
+        font-weight: bolder;
+    }
+    .desc {
+        font-family: 'Courier New';
+        text-indent: 10px;
+        text-align: justify;
+        margin-right: 70%;
+    }
+    .ballcanvas {
         position: absolute;
-        width: 40px;
-        height: 40px;
-        background-color: white;
-        border-radius: 50%;
-        box-shadow: 0 0 15px 5px;
-        left: 50%;
-        transform: translateX(-50%);
+        height: 400px;
+        width: 30%;
+        margin-left:30%;
+        border: 2px white solid;
+        float: right;
+        .ball {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 0 0 15px 5px;
+            left: 40%;
+            transform: translateX(-50%);
 
         .info {
             position: absolute;
             width: 200px;
             top: 15px;
             left: 60px;
+            }
         }
+    }
+    .rball {
+        margin-left: 12%;
+    }
+}
+
+.resume {
+    margin-left: 10%;
+    margin-bottom: 300px;
+
+    .t {
+        font-family: Helvetica;
+        font-weight: bolder;
+        font-size: 70px;
+    }
+    .nm {
+        font-family: 'Courier New';
+        font-weight: bolder;
+    }
+    .desc {
+        font-family: 'Courier New';
+        text-indent: 10px;
+        text-align: justify;
+        margin-right: 70%;
+    }
+}
+
+.contacts {
+    margin-left: 10%;
+    margin-bottom: 300px;
+
+    .t {
+        font-family: Helvetica;
+        font-weight: bolder;
+        font-size: 70px;
+    }
+    .nm {
+        font-family: 'Courier New';
+        font-weight: bolder;
+    }
+    .desc {
+        font-family: 'Courier New';
+        text-indent: 10px;
+        text-align: justify;
+        margin-right: 70%;
     }
 }
