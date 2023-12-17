@@ -1,5 +1,3 @@
-//Smooth Scroll
-
 //Bouncing Ball
 var ball = document.querySelector('.ball'),
     info = document.querySelector('.info'),
@@ -27,16 +25,3 @@ restartButton.addEventListener('click', function () {
     gravity = 0;
     bounce();
 });
-
-// Prompt
-function numberrobert() {
-    alert("Contact me, 090107306660");
-}
-
-function emailrobert() {
-    alert("Send me an email, robertpasukin042518@gmail.com");
-}
-
-function emailteddy() {
-    alert("Send me an email, 20221300@nbsc.edu.ph");
-}
