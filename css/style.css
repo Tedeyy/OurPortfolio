@@ -325,7 +325,7 @@ body {
 
 .resume {
     margin-left: 10%;
-    margin-bottom: 300px;
+    margin-bottom: 50px;
     animation: fade-up 0.5s 0.4s backwards;
 
     .t {

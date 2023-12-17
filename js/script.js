@@ -5,7 +5,8 @@ var ball = document.querySelector('.ball'),
     info = document.querySelector('.info'),
     y = 1,
     gravity = 1;
-var intervalId = setInterval(function (bounce) {
+var intervalId = setInterval(
+    function (bounce) {
         if (y >= 352) {
             clearInterval(intervalId);
         } else if (y > 350) {
