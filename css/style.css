@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 @keyframes fade-down {
     0% {
         opacity: 0;
@@ -325,7 +321,7 @@ body {
 }
 
 .resume {
-    margin-left: 10%;
+    padding: 10%;
     margin-bottom: 50px;
     animation: fade-up 0.5s 0.4s backwards;
 
@@ -348,7 +344,7 @@ body {
 }
 
 .contacts {
-    margin-left: 10%;
+    padding: 10%;
     margin-bottom: 300px;
     animation: fade-up 0.5s 0.4s backwards;
 
