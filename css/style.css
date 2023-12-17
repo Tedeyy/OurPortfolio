@@ -64,7 +64,13 @@ body {
                 border-radius: 35px;
                 background-image: url(../img/teddypic.jpg);
                 background-size: 100% 100%;
+                transition: transform 0.3s ease-out;
             }
+    
+            .pic:hover {
+                transform: scale(1.1)
+            }
+
             .desc1 {
                 font-family: 'Courier New';
                 font-weight: bolder;
@@ -101,7 +107,13 @@ body {
                 border-radius: 35px;
                 background-image: url(../img/robertpic.jpg);
                 background-size: 100% 100%;
+                transition: transform 0.3s ease-out;
             }
+    
+            .pic:hover {
+                transform: scale(1.1)
+            }
+            
             .desc1 {
                 font-family: 'Courier New';
                 font-weight: bolder;
@@ -154,7 +166,7 @@ body {
     }
     
     .pos:hover {
-        transform: translate(-30px, 30px) scale(1.2);
+        transform: translate(-35px, 30px) scale(1.2);
     }
 
     .tms {
@@ -169,7 +181,7 @@ body {
     }
 
     .tms:hover {
-        transform: translate(-30px, 30px) scale(1.2);
+        transform: translate(-35px, 30px) scale(1.2);
     }
 
     .calc {
@@ -184,7 +196,7 @@ body {
     }
 
     .calc:hover {
-        transform: translate(-30px, 30px) scale(1.2);
+        transform: translate(-35px, 30px) scale(1.2);
     }
 
     .pp {
@@ -199,7 +211,7 @@ body {
     }
 
     .pp:hover {
-        transform: translate(-30px, 30px) scale(1.2);
+        transform: translate(-40px, 40px) scale(1.2);
     }
 
 }
